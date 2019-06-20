@@ -43,7 +43,7 @@ public class ProfileFragment extends Fragment {
                 mAuth.signOut();
                 Intent intent = new Intent(getActivity(),LoginActivity.class);
                 startActivity(intent);
-                
+
             }
         });
         return view;
